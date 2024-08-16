@@ -1,0 +1,44 @@
+*{
+    font-family: Arial;
+}
+.container{
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid;
+    border: none;
+    width:400px;
+    margin-left: 30%;
+    margin-top: 40px;
+    padding: 20px 0px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: rgb(245, 228, 203);
+}
+.f1{
+    padding-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+input, textarea {
+    text-align: left;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0 0 0 45px;
+}
+button:hover{
+    background-color:rgb(157, 230, 157);
+    cursor: pointer;
+}
+button{
+    color: white;
+    background-color:rgb(51, 156, 51) ;
+    border: none;
+    padding:5px 10px;
+}
